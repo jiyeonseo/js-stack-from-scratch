@@ -1,4 +1,4 @@
-# JavaScript Stack from Scratch
+# 밑바닥부터 시작하는 자바스크립트 스택
 
 [![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch) [![Join the chat at https://gitter.im/js-stack-from-scratch/Lobby](https://badges.gitter.im/js-stack-from-scratch/Lobby.svg)](https://gitter.im/js-stack-from-scratch/Lobby)
 
@@ -12,13 +12,13 @@
 [![Chai](/img/chai.png)](http://chaijs.com/)
 [![Flow](/img/flow.png)](https://flowtype.org/)
 
-Welcome to my modern JavaScript stack tutorial: **JavaScript Stack from Scratch**.
+모던 자바스크립트 스택 튜토리얼,**밑바닥부터 시작하는 자바스크립트 스택** 에 오신 것을 환영합니다.
 
-This is a minimalistic and straight-to-the-point guide to assembling a JavaScript stack. It requires some general programming knowledge, and JavaScript basics. **It focuses on wiring tools together** and giving you the **simplest possible example** for each tool. You can see this tutorial as *a way to write your own boilerplate from scratch*.
+이것은 자바스크립트 스택을 사용하기위한 가장 짧고 빠른 가이드입니다. 이 가이드는 일반적인 프로그래밍 지식과 자바스크립트 기초를 전제로하고 있습니다. 여기서 **도구들을 함께 사용방법**과 각 도구들을 사용하는 **가장 간단한 예제**를 만들어봅니다. 이 튜토리얼을 **스스로 만들어 보는 바닥부터 시작하는 보일러플레이트** 로 볼 수 있습니다.
 
-You don't need to use this entire stack if you build a simple web page with a few JS interactions of course (a combination of Browserify/Webpack + Babel + jQuery is enough to be able to write ES6 code in different files with CLI compilation), but if you want to build a web app that scales, and need help setting things up, this tutorial will work great for you.
+만약 약간의 JS 인터랙션이 필요한 그냥 단순한 웹 페이지를 만든다면, 여기서 소개하는 모든 스택을 사용할 필요는 없습니다 (ES6 코드를 여러 파일에 쓰고 CLI로 컴파일하고자한다면, Browserify / Webpack + Babel + jQuery 조합으로 충분합니다). 그러나 스케일이 큰 웹 어플리케이션을 만들고자 한다면, 튜토리얼이 첫 시작으로 유용할 것입니다.
 
-Since the goal of this tutorial is to assemble various tools, I do not go into details about how these tools work individually. Refer to their documentation or find other tutorials if you want to acquire deeper knowledge in them.
+이 튜토리얼의 목표는 다양한 도구들의 사용이기 때문에, 도구들의 구조에 대해 자세한 내용은 다루지 않습니다. 좀 더 깊은 내용을 알고 싶다면, 각각의 공식 문서를 참고하거나 다른 튜토리얼을 찾아 보시기 바랍니다.
 
 A big chunk of the stack described in this tutorial uses React. If you are beginning and just want to learn React, [create-react-app](https://github.com/facebookincubator/create-react-app) will get you up and running with a React environment very quickly with a premade configuration. I would for instance recommend this approach to someone who arrives in a team that's using React and needs to catch up with a learning playground. In this tutorial you won't use a premade configuration, because I want you to understand everything that's happening under the hood.
 
