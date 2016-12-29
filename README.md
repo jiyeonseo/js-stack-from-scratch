@@ -33,7 +33,7 @@
 ## 목차
 [1 - Node와 NPM, Yarn, 그리고 package.json](/tutorial/1-node-npm-yarn-package-json)
 
-[2 - 패키지의 설치 및 사용](/tutorial/2-packages)
+[2 - 패키지 설치와 사용](/tutorial/2-packages)
 
 [3 - Babel과 Gulp를 이용한 ES6 설치](/tutorial/3-es6-babel-gulp)
 

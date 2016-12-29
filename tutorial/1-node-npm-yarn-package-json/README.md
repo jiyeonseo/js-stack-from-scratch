@@ -1,6 +1,6 @@
 # 1 -  Node와 NPM, Yarn, 그리고 package.json
 
-이 장에서는 Node, NPM, Yarn, 그리고 기본적인 `package.json`파일의 설정 방법을 알아봅니다.
+이 챕터에서는 Node, NPM, Yarn, 그리고 기본적인 `package.json`파일의 설정 방법을 알아봅니다.
 
 먼저 JavaScript 백엔드 뿐만 아니라, 모던 프론트엔드 스택을 구축하기위한 도구로 Node를 설치해야합니다.
 
@@ -56,6 +56,6 @@ yarn-error.log
 
 **주의** : 각 챕터 내 `package.json`파일에 `tutorial-test`라는 스크립트가 있습니다. 이 스크립트는 자기 자신을 테스트 하는 스크립트로, `yarn && yarn start`로 실행시켜 볼 수 있습니다. 다른 프로젝트에서 사용하는 경우, 삭제해도 상관 없습니다.
 
-다음 장 : [2 - 패키지의 설치 및 사용](/tutorial/2-packages)
+다음 챕터 : [2 - 패키지 설치와 사용](/tutorial/2-packages)
 
 [목차 로 돌아 가기](https://github.com/verekia/js-stack-from-scratch#table-of-contents).

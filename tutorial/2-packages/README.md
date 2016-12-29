@@ -1,12 +1,12 @@
-# 2 - Installing and using a package
+# 2 - 패키지 설치와 사용
 
-In this section we will install and use a package. A "package" is simply a piece of code that someone else wrote, and that you can use in your own code. It can be anything. Here, we're going to try a package that helps you manipulate colors for instance.
+이 챕터에서는 패키지를 설치하고 사용하는 방법에 대해서 알아봅니다. "패키지"는 다른 사람이 작성한 코드의 조각으로, 여러분의 코드 내에서 사용할 수 있습니다. 예제로 색상을 처리하는 것을 도와줄 패키지를 사용해 보도록 하겠습니다.
 
-- Install the community-made package called `color` by running `yarn add color`.
+- 커뮤니티에서 만들어진 패키지 `color`를 설치하기 위해 `yarn add color`를 실행합니다.
 
-Open `package.json` to see how Yarn automatically added `color` in  `dependencies`.
+`package.json`을 열면, Yarn이 `dependencies`안에 `color`를 자동으로 추가 한 것을 볼 수 있습니다.
 
-A `node_modules` folder has been created to store the package.
+패키지를 저장하기 위해 `node_modules`폴더가 만들어 진 것을 확인 할 수 있습니다.
 
 - Add `node_modules/` to your `.gitignore` file (and `git init` a new repo if you haven't done that yet).
 
