@@ -1,4 +1,4 @@
-# 1 - Node, NPM, Yarn, and package.json
+# 1 -  Node와 NPM, Yarn, 그리고 package.json
 
 In this section we will set up Node, NPM, Yarn, and a basic `package.json` file.
 
