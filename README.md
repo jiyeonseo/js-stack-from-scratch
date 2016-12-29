@@ -57,9 +57,9 @@
 
 ## 다음 할 일
 
-Production / development environments, Express, React Router, Server-Side Rendering, Styling, Enzyme, Git Hooks.
+실전 / 개발 환경, Express, React Router, 서버 사이드 렌더링, Styling, Enzyme, Git Hooks.
 
-## Translations
+## 번역
 
 - [中文](https://github.com/pd4d10/js-stack-from-scratch) by [@pd4d10](http://github.com/pd4d10)
 - [Italiano](https://github.com/fbertone/js-stack-from-scratch) by [Fabrizio Bertone](https://github.com/fbertone)
@@ -67,7 +67,7 @@ Production / development environments, Express, React Router, Server-Side Render
 - [Русский](https://github.com/UsulPro/js-stack-from-scratch) by [React Theming](https://github.com/sm-react/react-theming)
 - [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
 
-If you want to add your translation, please read the [translation recommendations](/how-to-translate.md) to get started!
+만약 번역에 관심 있으시다면, [번역에 참가하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
 
 ## Credits
 
