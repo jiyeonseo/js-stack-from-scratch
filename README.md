@@ -68,7 +68,7 @@
 - [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
 - [한국어](https://github.com/jiyeonseo/js-stack-from-scratch) by [Jiyeon Seo](https://github.com/jiyeonseo)
 
-만약 번역에 관심 있으시다면, [번역에 참가하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
+만약 번역에 관심 있으시다면, [번역에 참여하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
 
 ## Credits
 
