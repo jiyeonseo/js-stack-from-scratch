@@ -66,6 +66,7 @@
 - [日本語](https://github.com/takahashim/js-stack-from-scratch) by [@takahashim](https://github.com/takahashim)
 - [Русский](https://github.com/UsulPro/js-stack-from-scratch) by [React Theming](https://github.com/sm-react/react-theming)
 - [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
+- [한국어](https://github.com/jiyeonseo/js-stack-from-scratch) by [Jiyeon Seo](https://github.com/jiyeonseo)
 
 만약 번역에 관심 있으시다면, [번역에 참가하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
 
