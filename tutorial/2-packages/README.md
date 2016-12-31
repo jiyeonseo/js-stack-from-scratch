@@ -28,4 +28,4 @@
 
 다음 챕터 : [3 - Babel과 Gulp를 이용한 ES6 설치](/tutorial/3-es6-babel-gulp)
 
-[전 챕터](/tutorial/1-node-npm-yarn-package-json) 또는 [목차](https://github.com/verekia/js-stack-from-scratch#table-of-contents)로 돌아 가기
+[전 챕터](/tutorial/1-node-npm-yarn-package-json) 또는 [목차](https://github.com/jiyeonseo/js-stack-from-scratch#table-of-contents)로 돌아 가기
