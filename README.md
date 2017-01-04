@@ -12,7 +12,7 @@
 [![Chai](/img/chai.png)](http://chaijs.com/)
 [![Flow](/img/flow.png)](https://flowtype.org/)
 
-모던 자바스크립트 스택 튜토리얼,**밑바닥부터 시작하는 자바스크립트 스택** 에 오신 것을 환영합니다.
+모던 자바스크립트 스택 튜토리얼, **밑바닥부터 시작하는 자바스크립트 스택** 에 오신 것을 환영합니다.
 
 이것은 자바스크립트 스택을 사용하기위한 가장 짧고 빠른 가이드입니다. 이 가이드는 일반적인 프로그래밍 지식과 자바스크립트 기초를 전제로하고 있습니다. 여기서 **도구들을 함께 사용방법**과 각 도구들을 사용하는 **가장 간단한 예제**를 만들어봅니다. 이 튜토리얼을 **스스로 만들어 보는 바닥부터 시작하는 보일러 플레이트** 로 볼 수 있습니다.
 
@@ -33,7 +33,7 @@
 ## 목차
 [1 - Node와 NPM, Yarn, 그리고 package.json](/tutorial/1-node-npm-yarn-package-json)
 
-[2 - 패키지의 설치 및 사용](/tutorial/2-packages)
+[2 - 패키지 설치와 사용](/tutorial/2-packages)
 
 [3 - Babel과 Gulp를 이용한 ES6 설치](/tutorial/3-es6-babel-gulp)
 
@@ -68,7 +68,7 @@
 - [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
 - [한국어](https://github.com/jiyeonseo/js-stack-from-scratch) by [Jiyeon Seo](https://github.com/jiyeonseo)
 
-만약 번역에 관심 있으시다면, [번역에 참가하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
+만약 번역에 관심 있으시다면, [번역에 참여하는 방법](/how-to-translate.md)을 참고하여 바로 시작하세요!
 
 ## Credits
 
