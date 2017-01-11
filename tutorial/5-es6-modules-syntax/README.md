@@ -1,10 +1,10 @@
-# 5 - The ES6 modules syntax
+# 5 - ES6 모듈 문법
 
-Here we simply replace `const Dog = require('./dog')` by `import Dog from './dog'`, which is the newer ES6 modules syntax (as opposed to "CommonJS" modules syntax).
+`const Dog = require('./dog')`를 `import Dog from './dog'`로 바꿔봅니다. 이것이 ("CommonJS" 모듈 문법에 비해) 새로운 ES6 모듈의 문법입니다.
 
-In `dog.js`, we also replace `module.exports = Dog` by `export default Dog`.
+`dog.js` 내부의 `module.exports = Dog`을 `export default Dog`으로 바꿉니다.
 
-Note that in `dog.js`, the name `Dog` is only used in the `export`. Therefore it could be possible to export directly an anonymous class like this instead:
+`dog.js`내에서 `Dog`이라는 이름은 `export`안에서만 사용되는 점을 유의하십시오. 따라서 다음과 같이 익명 클래스로 직접 내보낼 수 있습니다 :
 
 ```javascript
 export default class {
@@ -18,7 +18,7 @@ export default class {
 }
 ```
 
-You might now guess that the name 'Dog' used in the `import` in `index.js` is actually completely up to you. This would work just fine:
+눈치 채셨을지 모르겠지만, `index.js`파일의 `import`에서 'Dog'이라는 이름은, 사용하는 사람 마음대로 입니다. 실제로 이렇게 써도 문제없이 동작합니다.
 
 ```javascript
 import Cat from './dog';
@@ -26,14 +26,14 @@ import Cat from './dog';
 const toby = new Cat('Toby');
 ```
 
-Obviously, most of the time you will use the same name as the class / module you're importing.
-A case where you don't do that is how we `const babel = require('gulp-babel')` in our Gulp file.
+물론, 가져온 class / module의 이름을 그대로 사용하는 경우가 대부분입니다.
+그렇지 않은 예로는, Gulp 파일에서 `const babel = require('gulp-babel')`하는 경우가 있습니다.
 
-So what about those `require()`s in our `gulpfile.js`? Can we use `import` instead? The latest version of Node supports most ES6 features, but not ES6 modules yet. Luckily for us, Gulp is able to call Babel for help. If we rename our `gulpfile.js` to `gulpfile.babel.js`, Babel will take care of passing `import`ed modules to Gulp.
+그렇다면, `gulpfile.js`파일의 `require()`는 어떨까요? 대신 `import`를 사용할 수 있을까요? 최신 버전의 Node는 ES6의 대부분의 기능을 지원하고 있지만, ES6 모듈 기능은 아직 지원하지 않습니다. 하지만 다행히 Gulp는 Babel의 도움을 받을 수 있습니다. `gulpfile.js`를 `gulpfile.babel.js`로 이름을 바꾸면 Babel은 `import`된 모듈을 Gulp에 전달하는 역할을 해줍니다.
 
-- Rename your `gulpfile.js` to `gulpfile.babel.js`
+- `gulpfile.js`를 `gulpfile.babel.js`로 이름을 바꿉니다.
 
-- Replace your `require()`s by:
+- `require()`를 다음과 같이 수정합니다.
 
 ```javascript
 import gulp from 'gulp';
@@ -42,10 +42,11 @@ import del from 'del';
 import { exec } from 'child_process';
 ```
 
-Note the syntactic sugar to extract `exec` directly from `child_process`. Pretty elegant!
+`child_process`에서 `exec`를 직접 접근하기 위해 문법적 설탕(syntactic sugar)이 사용되었습니다. 정말 멋지지 않습니까!
 
-- `yarn start` should still print "Wah wah, I am Toby".
+- `yarn start`를 실행하면 "Wah wah, I am Toby"로 나타나는 것을 보실 수 있습니다.
 
-Next section: [6 - ESLint](/tutorial/6-eslint)
 
-Back to the [previous section](/tutorial/4-es6-syntax-class) or the [table of contents](https://github.com/verekia/js-stack-from-scratch#table-of-contents).
+다음 챕터: [6 - ESLint](/tutorial/6-eslint)
+
+[전 챕터](/tutorial/4-es6-syntax-class) 또는 [목차](https://github.com/jiyeonseo/js-stack-from-scratch#table-of-contents)로 돌아 가기
